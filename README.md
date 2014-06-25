@@ -1,7 +1,7 @@
 Cloud Detector
 ===
 
-Cloud Detector scans your network for traffic from Dropbox, Box, SugarySync, and other public cloud storage platforms. Detecting public cloud storage usage is often necessary to prevent data leakage in security conscious organizations and businesses.
+Cloud Detector scans your network for traffic from Dropbox, Box, SugarSync, and other public cloud storage platforms. Detecting public cloud storage usage is often necessary to prevent data leakage in security conscious organizations and businesses.
 
 Usage
 ---
