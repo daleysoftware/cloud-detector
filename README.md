@@ -9,9 +9,8 @@ Usage
 Install the following prerequisites:
 
 * `tshark` (the `wireshark` command line network analyzer).
-* `python2.7`
+* `python3`
 * `pyshark` (a pip-installable wrapper for tshark)
-* `expiringdict` (a pip-installable expiring in-memory dictionary)
 * `colorama` (a pip-installable console text formatting tool)
 
 Run the Cloud Detector application using the following command:
