@@ -11,7 +11,6 @@ Install the following prerequisites:
 * `tshark` (the `wireshark` command line network analyzer).
 * `python3`
 * `pyshark` (a pip-installable wrapper for tshark)
-* `colorama` (a pip-installable console text formatting tool)
 
 Run the Cloud Detector application using the following command:
 
