@@ -9,12 +9,12 @@ Usage
 Install the following prerequisites:
 
 * `tshark` (the `wireshark` command line network analyzer).
-* `python3`
+* `python2.7`
 * `pyshark` (a pip-installable wrapper for tshark)
 
 Run the Cloud Detector application using the following command:
 
-    python3 cloud-detector.py
+    python2.7 cloud-detector.py
 
 Limitations
 ---
