@@ -15,7 +15,7 @@ Install the following prerequisites:
 
 Run the Cloud Detector application using the following command:
 
-    sudo python cloud-detector.py
+    python3 cloud-detector.py
 
 Limitations
 ---
