@@ -1,14 +1,14 @@
 Cloud Detector
 ===
 
-Cloud Detector scans your network for traffic from Dropbox, Box, SugarSync, and other public cloud storage platforms. Detecting public cloud storage usage is often necessary to prevent data leakage in security conscious organizations and businesses.
+Cloud Detector scans your network for traffic from Dropbox, Box, SugarSync, and other public cloud storage platforms. Detecting public cloud storage usage is often necessary to prevent data leakage in the enterprise.
 
 Usage
 ---
 
 Install the following prerequisites:
 
-* `tshark` (the wireshark command line network analyzer).
+* `tshark` (the `wireshark` command line network analyzer).
 * `python2.7`
 * `pyshark` (a pip-installable wrapper for tshark)
 
