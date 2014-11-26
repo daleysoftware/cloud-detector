@@ -22,4 +22,4 @@ dns_capture = pyshark.LiveCapture(
     interface=sys.argv[1])
 
 for packet in dns_capture.sniff_continuously():
-    print('DNS QUERY %s (IP=%s MAC=%s)' % (packet.dns.qry_name, packet.ip.src, packet.eth.src))
+    print('DNS QUERY %s (IP=%s)' % (packet.dns.qry_name, packet.ip.src))
