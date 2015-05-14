@@ -26,34 +26,34 @@ run this application in an appropriate network location, such that it is able
 to see all the relevant traffic in your organization.
 
 ```
-    python2.7 cloud-detector.py
+python2.7 cloud-detector.py
 ```
 
 For example,
 
 ```
-    $ python cloud-detector.py 
-    DNS Query: drive.google.com (src: 172.19.10.242)
-    DNS Query: sugarsync.com (src: 172.19.10.242)
-    DNS Query: sugarsync.com (src: 172.19.10.242)
-    DNS Query: onedrive.google.com (src: 172.19.10.242)
-    DNS Query: onedrive.google.com (src: 172.19.10.242)
-    DNS Query: box.com (src: 172.19.10.242)
-    DNS Query: box.com (src: 172.19.10.242)
-    DNS Query: box.com (src: 172.19.10.242)
-    DNS Query: box.com (src: 172.19.10.242)
-    DNS Query: box.com (src: 172.19.10.242)
-    DNS Query: dropbox.com (src: 172.19.10.242)
-    DNS Query: dropbox.com (src: 172.19.10.242)
-    ^C
+$ python cloud-detector.py 
+DNS Query: drive.google.com (src: 172.19.10.242)
+DNS Query: sugarsync.com (src: 172.19.10.242)
+DNS Query: sugarsync.com (src: 172.19.10.242)
+DNS Query: onedrive.google.com (src: 172.19.10.242)
+DNS Query: onedrive.google.com (src: 172.19.10.242)
+DNS Query: box.com (src: 172.19.10.242)
+DNS Query: box.com (src: 172.19.10.242)
+DNS Query: box.com (src: 172.19.10.242)
+DNS Query: box.com (src: 172.19.10.242)
+DNS Query: box.com (src: 172.19.10.242)
+DNS Query: dropbox.com (src: 172.19.10.242)
+DNS Query: dropbox.com (src: 172.19.10.242)
+^C
 
-    DNS Query Summary
+DNS Query Summary
 
-    Domain                 Uniques    Total
-    -------------------  ---------  -------
-    box.com                      1        5
-    drive.google.com             1        1
-    dropbox.com                  1        2
-    onedrive.google.com          1        2
-    sugarsync.com                1        2
+Domain                 Uniques    Total
+-------------------  ---------  -------
+box.com                      1        5
+drive.google.com             1        1
+dropbox.com                  1        2
+onedrive.google.com          1        2
+sugarsync.com                1        2
 ```
